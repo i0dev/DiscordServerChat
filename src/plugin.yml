@@ -1,0 +1,19 @@
+name: DiscordServerChat
+description: This plugin gets all the server chat messages from inside your server, and then puts them into a discord channel!
+main: me.bukkit.i01.Main
+author: i01
+website: https://www.i0dev.com
+database: false
+version: 1.0.1
+commands:
+  dsc:
+    permission: dsc.reload
+    description: Reloads the config
+    usage: "/dsc"
+permissions:
+  dsc.*:
+    description: Gives you all permissions for all Discord Server Chat commands.
+    children:
+      dsc.reload: true
+  dsc.reload:
+    description: Gives you permission to reload Discord Server Chat.
