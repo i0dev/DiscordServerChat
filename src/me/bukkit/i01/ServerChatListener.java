@@ -15,7 +15,7 @@ public class ServerChatListener implements Listener {
 
     @EventHandler
     public void ServerChat(AsyncPlayerChatEvent e) {
-        Bot.sendServerChat("**" + e.getPlayer().getDisplayName() + "** » `" + e.getMessage() + "`");
+        Bot.sendServerChat("**" + e.getPlayer().getDisplayName() + "** » `" + e.getMessage() + "`" , e.getPlayer().getUniqueId().toString());
 
     }
 }
