@@ -9,4 +9,4 @@ First you must make a discord bot, and then in the config.yml file the plugin ge
  - ```dsc.reload.```  - ``Gives permissions to use /dsc reload.``
 
 ## Need help? 
-Join the [Support Server](https://discord.gg/h7MRPyJ) and feel free to ask any questions to me directly too, My discord is i0#0001
+Join the [Support Server](https://discord.i0dev.com/) and feel free to ask any questions to me directly too, My discord is i0#0001
